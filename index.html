@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Little Pause</title>
+    <link href="output.css" rel="stylesheet">
 </head>
 <body>
-    <p>Hello Onelittle</p>
+    <section class="h-screen w-screen flex bg-black justify-center">
+        <!-- container -->
+        <section class="relative w-fit h-fit overflow-hidden bg-white">
+            <!-- bg holder -->
+            <img src="./assets/images/bath-02/BG-2.png" class="max-w-screen max-h-screen object-contain opacity-0">
+
+            <!-- bath01 -->
+            <section class="absolute top-0 left-0 w-full h-full">
+                <!-- background -->
+                <div>
+                    <img src="./assets/images/bath-02/bg-all.png">
+                </div>
+
+                <div class="absolute top-[8%] left-0">
+                    <img src="./assets/images/bath-02/bubble-back.png">
+                </div>
+
+                <!-- girl -->
+                <div class="absolute top-[0%] left-[9%] w-[90%]">
+                    <div class="relative w-full h-full">
+                        <img src="./assets/images/bath-02/girlnoface.png">
+                    </div>
+                    <div class="absolute top-[17%] left-[27.2%] w-[35%]">
+                        <img src="./assets/images/bath-02/face-smile.png">
+                    </div>
+                </div>
+
+                <div class="absolute top-[15%] left-0">
+                    <img src="./assets/images/bath-02/bubble-front.png">
+                </div>
+
+                <div class="absolute bottom-[3%] left-[32%] w-[35%]">
+                    <img src="./assets/images/bath-02/hand.png">
+                </div>
+
+                <div class="absolute top-[2%] right-[10%] w-[20%] z-[10]">
+                    <img src="./assets/images/bath-01/scorebar.png">
+                </div>
+
+                <div class="absolute bottom-[-41.9%] right-[0%] w-full z-[10]">
+                    <img src="./assets/images/bath-02/temperature.png">
+                </div>
+
+                <script src="./js/bath01.js"></script>
+            </section>
+
+        </section>
+    </section>
 </body>
 </html>
