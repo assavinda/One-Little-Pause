@@ -1,3 +1,82 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+
+.allbody {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    overflow: hidden;
+    background-color: white;
+}
+
+.holder {
+    opacity: 0;
+    width: 100%;
+}
+
+.sectiongame {
+    display: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.bubbleback {
+    display: absolute;
+    top: 8%;
+    left: 0%;
+}
+
+.bubblefront {
+    display: absolute;
+    top: 15%;
+    left: 0%;
+}
+
+.hand {
+    width: 35%;
+    display: absolute;
+    bottom: 3%;
+    left: 32%;
+}
+
+.scorebar {
+    z-index: 10;
+    width: 20%;
+    display: absolute;
+    top: 2%;
+    right: 10%;
+}
+
+.temp {
+    z-index: 10;
+    width: 100%;
+    display: absolute;
+    bottom: -41.9%;
+    right: 0%;
+}
+
+.girl {
+    width: 90%;
+    display: absolute;
+    top: 0%;
+    left: 9%;
+}
+
+.girlbody {
+    width: 100%;
+}
+
+.girlface {
+    width: 35%;
+    display: absolute;
+    top: 17%;
+    left: 27.2%;
+}
